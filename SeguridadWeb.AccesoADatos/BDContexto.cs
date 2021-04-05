@@ -18,7 +18,7 @@ namespace SeguridadWeb.AccesoADatos
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-URUNQ5U\SQLEXPRESS;Initial Catalog=Facturacion;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-URUNQ5U\SQLEXPRESS;Initial Catalog=SeguridadWebdb;Integrated Security=True");
         }
     }
 }
